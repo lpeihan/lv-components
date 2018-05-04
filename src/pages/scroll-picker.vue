@@ -7,7 +7,7 @@
     </mt-header>
 
     <div class="container">
-      <mt-button type="default" @click="open">{{pickerValue}}</mt-button>
+      <mt-cell :title="pickerValue" @click.native="open" is-link></mt-cell>
       <lv-scroll-picker :options="options" v-model="pickerValue" ref="picker"></lv-scroll-picker>
     </div>
   </div>
@@ -35,8 +35,4 @@ export default {
 </script>
 
 <style lang="stylus">
-  .scroll-picker
-    .container
-      margin-top: 20px
-      text-align: center
 </style>
