@@ -4,6 +4,7 @@
     <mt-cell title="scroll-picker" to="/scroll-picker" is-link></mt-cell>
     <mt-cell title="popup" to="/popup" is-link></mt-cell>
     <mt-cell title="address-picker" to="/address-picker" is-link></mt-cell>
+    <mt-cell title="message-box" to="/message-box" is-link></mt-cell>
   </div>
 </template>
 

@@ -15,19 +15,15 @@ module.exports = {
     // https://github.com/standard/standard/blob/master/docs/RULES-en.md
     'standard'
   ],
-  // required to lint *.vue files
   plugins: [
     'vue'
   ],
   // add your custom rules here
   rules: {
-    // always semi
+    'prefer-promise-reject-errors': 'off',
     'semi': ['error', 'always'],
-    // space-before-function-paren
     'space-before-function-paren': 'off',
-    // allow async-await
     'generator-star-spacing': 'off',
-    // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
 }
